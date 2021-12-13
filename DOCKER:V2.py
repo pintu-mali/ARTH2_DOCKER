@@ -236,6 +236,8 @@ while True:
 	elif ch == 23:
 		img = input("Enter image name: ")
 		os.system("docker history {}".format(img))	
+	elif ch == 24:
+		break
 	input("Press enter to continue........")
 	os.system("clear")
 
